@@ -3,12 +3,16 @@ import {Metadata} from "next";
 
 export default function Layout({
   children,
+  modal
 }: {
   children: React.ReactNode
+    modal: React.ReactNode
 }) {
   return (
       <section>
-          {children}
+        {children}
+        {modal}
+        <div id="modal-root"/>
       </section>
   )
 }
