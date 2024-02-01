@@ -8,12 +8,13 @@ export default async function Page(props: { params: { lang: string; }; }) {
         <>
             <h1>{lang.Index.title}</h1>
             <section className="cards-container">
-            {photos.map((id) => (
-                <Link className="card" key={id} href={`/photos/${id}`} passHref>
-                    {id}
-                </Link>
-            ))}
+                {photos.map((id) => (
+                    <Link className="card" key={id} href={`/photos/${id}`} passHref>
+                        {id}
+                    </Link>
+                ))}
             </section>
+            <img src="/hello.png"/>
         </>
     )
 
