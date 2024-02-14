@@ -1,0 +1,29 @@
+{
+  "alert": {
+    "pageTitle": "Applying for a appreciation event",
+    "baseAmtGuide": "You can apply for appreciation event based on the actual payment amount",
+    "and": "and",
+    "cases": "other case",
+    "discountStartAmountUnit": "Starting From  ",
+    "onSelectAeFvr": "Dont apply for a appreciation event",
+    "apply": "Apply for and pay for a appreciation event",
+    "baseDatePattern": "MM.DD."
+  },
+  "claim": {
+    "retrievalInfo": "Retrieval Location Info",
+    "modifyInfo": "Modify Info >",
+    "selectReturnReason": "Please select reason for return. (Required)",
+    "selectDtlReturnReason": "Please select detailed reason for return. (Required)",
+    "detailReasonInfo": "Please enter detailed reason."
+  },
+  "returnShippingFeeInfo": [
+    {
+      "shippingFee": "￦ 10,000",
+      "country": "Mainland China, Hong Kong, Japan, Taiwan, Singapore, Vietnam, Malaysia, Indonesia, Brunei, Thailand, Philippines, Bangladesh, India"
+    },
+    {
+      "shippingFee": "￦ 20,000",
+      "country": "Other countries"
+    }
+  ]
+}
